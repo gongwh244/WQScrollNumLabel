@@ -79,6 +79,7 @@
         layer.string = numArr[i];
         layer.foregroundColor = [UIColor redColor].CGColor;
         layer.alignmentMode = kCAAlignmentCenter;
+        layer.fontSize = 18;
     }
 }
 

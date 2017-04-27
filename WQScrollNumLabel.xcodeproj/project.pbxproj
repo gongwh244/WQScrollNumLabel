@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F07704661EB1B96C009D0A5E /* WQPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07704651EB1B96C009D0A5E /* WQPriceView.m */; };
 		F090F7F51EB0A6070026DC3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F090F7F41EB0A6070026DC3B /* main.m */; };
 		F090F7F81EB0A6070026DC3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F090F7F71EB0A6070026DC3B /* AppDelegate.m */; };
 		F090F7FB1EB0A6070026DC3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F090F7FA1EB0A6070026DC3B /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F07704641EB1B96C009D0A5E /* WQPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPriceView.h; sourceTree = "<group>"; };
+		F07704651EB1B96C009D0A5E /* WQPriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPriceView.m; sourceTree = "<group>"; };
 		F090F7F01EB0A6070026DC3B /* WQScrollNumLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQScrollNumLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F090F7F41EB0A6070026DC3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F090F7F61EB0A6070026DC3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				F090F7FA1EB0A6070026DC3B /* ViewController.m */,
 				F090F80A1EB0AF3A0026DC3B /* WQNumView.h */,
 				F090F80B1EB0AF3A0026DC3B /* WQNumView.m */,
+				F07704641EB1B96C009D0A5E /* WQPriceView.h */,
+				F07704651EB1B96C009D0A5E /* WQPriceView.m */,
 				F090F7FC1EB0A6070026DC3B /* Main.storyboard */,
 				F090F7FF1EB0A6070026DC3B /* Assets.xcassets */,
 				F090F8011EB0A6070026DC3B /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 				F090F80C1EB0AF3A0026DC3B /* WQNumView.m in Sources */,
 				F090F7F81EB0A6070026DC3B /* AppDelegate.m in Sources */,
 				F090F7F51EB0A6070026DC3B /* main.m in Sources */,
+				F07704661EB1B96C009D0A5E /* WQPriceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 				F090F8091EB0A6070026DC3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
