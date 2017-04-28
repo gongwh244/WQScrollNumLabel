@@ -28,8 +28,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    _view = [[WQNumView alloc] initWithFrame:CGRectMake(0, 20, 10, 40)];
-    [self.view addSubview:_view];
+//    _view = [[WQNumView alloc] initWithFrame:CGRectMake(0, 20, 10, 40)];
+//    [self.view addSubview:_view];
     
     [self.view addSubview:self.priceView];
 }
@@ -43,9 +43,9 @@
 
 
 - (IBAction)updateAction:(id)sender {
-    [_view setAnimationToValue:self.inputTextField.text.integerValue];
+//    [_view setAnimationToValue:self.inputTextField.text.integerValue];
     
-    [self.priceView setAnimationToValue:1.55f];
+    [self.priceView setAnimationToValue:self.inputTextField.text.floatValue];
 }
 
 @end
